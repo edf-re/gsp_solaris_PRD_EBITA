@@ -22,7 +22,9 @@ Prototype released 2021-10-01 (End of third BOS)
 PO - Cory
 
 ## Features In
-Calculate EBITA from monthly Expenses and Revenue. 
+Calculate EBITA from existing monthly Expenses and Revenue.
+
+![Modeling](images/Modeling.png)
 
 Expenses includes:
 - Property Tax
@@ -30,22 +32,27 @@ Expenses includes:
 - O&M
 - Leases and royalties
 
+![Expenses](images/Expenses.png)
+
 Revenue include:
 - PPA
 - Merchant
 - RECs
 
-## Features Out
-Front end
-UIRR
-Basis
-CapEx
-Taxes
-
-## Designs
 ![Revenue](images/Revenue.png)
 
-![Expenses](images/Expenses.png)
+## Features Out
+- Front end
+- UIRR
+- Basis
+- CapEx
+- Taxes
+
+## Designs
+Jupyter notebook or Streamlit app. 
+
+'North Star Prototype':
+![Parallel Coordinates](images/ParallelCoordinates.png)
 
 ## Open Issues
 Finalizing exact messaging. 
